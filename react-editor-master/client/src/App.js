@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import UploadForm from './UploadForm/UploadForm';
+import Header from './Header/Header';
 import Gallery from './Gallery/Gallery';
 import Canvas from './Canvas/Canvas';
 import Button from './Button/Button';
@@ -72,6 +73,11 @@ function App() {
     
   return (
     <div className="container-fluid">
+      <div className="row">
+        <div className="col-12">
+          <Header>..</Header>
+        </div>
+      </div>
       <div className="row">
       <div className="col-4 left">
       <UploadForm pushImage={pushImage}></UploadForm>

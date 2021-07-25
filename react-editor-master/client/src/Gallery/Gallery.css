@@ -1,19 +1,21 @@
-ul li{
+ul li {
     list-style-type: none;
 }
-.gallery{
+
+.gallery {
     margin: 25px 0px 0px 0px;
-    height: 455px;
-    background-color: white;
-    border-radius: 7px;
+    height: auto;
+    max-height: 70vh;
     overflow-y: scroll;
     overflow-x: hidden;
 }
-.gallery .row, .gallery .row .col-6{
+
+.gallery .row,
+.gallery .row .col-6 {
     padding: 0;
     margin: 0;
 }
 
-.gallery .gallery-img{
+.gallery .gallery-img {
     cursor: grab;
 }
