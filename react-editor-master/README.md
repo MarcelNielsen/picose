@@ -1,3 +1,6 @@
+## Credit
+To alisumait, his original repo can be found here. https://github.com/alisumait/react-editor
+
 ## Instructions
 
 This web app is created with React.js & Express.
