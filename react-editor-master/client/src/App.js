@@ -79,7 +79,7 @@ function App() {
         </div>
       </div>
       <div className="row">
-      <div className="col-4 left">
+      <div className="col-2 left border-right padding-top-10">
       <UploadForm pushImage={pushImage}></UploadForm>
       <Button className="text-button btn btn-secondary" onClick={addText}>Add Text</Button>
       {images==false ? (
@@ -88,7 +88,7 @@ function App() {
         <Gallery elementId={localStorage.getItem("id")} sendId={setId} imgList = {images} />
         }
     </div>
-    <div className="col-8 right">
+    <div className="col-10 right no-padding-left">
         <Canvas onClick={saveCanvas} children={canvas} elementId={localStorage.getItem("id")}>
         </Canvas>
     </div>
